@@ -1,0 +1,23 @@
+html{
+    overflow-x: hidden;
+}
+a.hoveryellow:hover{
+    color: yellow !important;
+}
+li[class="nav-item active"]{
+    border-bottom: 1px solid yellow !important;
+}
+.text-yellow{
+    color: yellow !important;
+}
+
+textarea{
+    resize: none;
+}
+
+.noitalics{
+    font-style: normal;
+}
+.text-block{
+    display: block;
+}

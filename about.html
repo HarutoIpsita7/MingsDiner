@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>About Us</title><link rel="shortcut icon" href="Images/Iconpic.png" type="image/x-icon">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+            integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <script
+            src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-3-typeahead/4.0.2/bootstrap3-typeahead.min.js"
+            integrity="sha512-HWlJyU4ut5HkEj0QsK/IxBCY55n5ZpskyjVlAoV9Z7XQwwkqXoYdCIC93/htL3Gu5H3R4an/S0h2NXfbZk3g7w=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script src="searchbar.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid bg-primary">
+            <!-- Nav Bar -->
+            <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+                <a href="index.html" class="navbar-brand h1 text-yellow"
+                    >Ming's Diner</a
+                >
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div
+                    class="collapse navbar-collapse"
+                    id="navbarSupportedContent"
+                >
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a href="index.html" class="nav-link hoveryellow">
+                                <i class="bi bi-house-fill noitalics"> Home</i>
+                                
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="about.html" class="nav-link hoveryellow">
+                                <i class="bi bi-file-earmark-person-fill noitalics"> About</i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="dishes.html" class="nav-link hoveryellow">
+                                <i class="bi bi-flower1 noitalics"> Dishes</i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link hoveryellow">
+                                <i class="bi bi-headset noitalics"> Contact</i>
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="request.html" class="nav-link hoveryellow">
+                                <i class="bi bi-truck noitalics"> Request</i>
+                            </a>
+                        </li>
+                        <li class="nav-item mr-sm-2">
+                            <a
+                                href="tel:9090707061"
+                                class="nav-link hoveryellow"
+                                data-toggle="tooltip" data-placement="bottom" title="Call Us at 9090707061"
+                            >
+                                <i class="bi bi-phone-vibrate-fill"></i>
+                                Call Us
+                            </a>
+                        </li>
+                    </ul>
+                    <form action="#" class="form-inline ml-auto">
+                        <div class="input-group">
+                            <input
+                                type="search"
+                                class="form-control typehead"
+                                data-provider="typeahead"
+                                placeholder="Search Dishes"
+                                name="search_dish"
+                                id="search_dish"
+                            />
+                            <div class="input-group-append">
+                                <button
+                                    class="btn btn-outline-light btn-dark"
+                                    type="button"
+                                >
+                                    <i class="bi bi-search-heart-fill"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </nav>
+            <!-- Body -->
+            <div
+                class="container bg-light text-dark mt-4 mt-4 pt-5 pb-5 pr-4 pl-4"
+            >
+                <div class="display-4 mb-3 font-weight-bold">
+                    Your Favourite Veggie Delights!
+                </div>
+                <!-- Content -->
+                <div class="card mb-3">
+                    <img
+                        src="Images/calum-lewis-vA1L1jRTM70-unsplash_spices.jpg"
+                        alt="calum-lewis-vA1L1jRTM70-unsplash_spices"
+                        class="d-block w-100 h-100 card-img-top"
+                    />
+                    <div class="card-header display-4">Foundation</div>
+                    <div class="card-body">
+                        <div class="card-title font-weight-bold">
+                            Ming's Dinner was founded by Dr. Ghan Shayam Sundar on 19th of December 2000
+                        </div>
+                        <div class="card-text">
+                            Dr. Ghan Shayam Sundar's wife Mrs. Sriya Shyama Sundar's hand cooking is so tasty that everyone who even got the sent of the food got drawn towards it.
+                            <br>
+                            She is the main cook at Dr. Ghan Shyam Sundar's Ming's dinner. She always gives food to everyone who comes to her even if they don't have a penny. She is a motherly person under whom the restaurents has grown up. The younger cooks follow each and every instruction from lighting the fire to serving the food. After the food is made Mrs. Sriya Shyama Sundar offers the food to her Prabhu nd then to the people who come to eat. The food made at Dr. Ghan Shyam Sundar's Ming's dinner is purely Vegitarian without onion and garlic.
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        It is always a pleasure from the bottom of the heart both to look forward to eat dishes cooked by her, while having the food and also afterwards. 
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <img
+                        src="Images/albert-YYZU0Lo1uXE-unsplash.jpg"
+                        alt="albert-YYZU0Lo1uXE-unsplash"
+                        class="d-block w-100 h-100 card-img-top"
+                    />
+                    <div class="card-header display-4">Location</div>
+                    <div class="card-body">
+                        <div class="card-title font-weight-bold">
+                            Ming's Dinner is located at Sea Beach Rd, Puri, Odisha 752001
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        The natures beautifull sight along with the cool breez is a beautiful addition to the beauty of the restaurant. In addition to that due to the covid pandemic there is also the system of home delivery.
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <img
+                        src="Images/gabriele-bartoletti-stella-hhlF006622M-unsplash.jpg"
+                        alt="calum-lewis-vA1L1jRTM70-unsplash_spices"
+                        class="d-block w-100 h-100 card-img-top"
+                    />
+                    <div class="card-header display-4">Vegitables and Fruits</div>
+                    <div class="card-body">
+                        <div class="card-title font-weight-bold">
+                            Vegitables and fruits local to India re used to make the dishes. 
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        Food made is purely vegitarian and without onion and garlic.
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <img
+                        src="Images/brooke-lark-08bOYnH_r_E-unsplash_freshlypicked.jpg"
+                        alt="calum-lewis-vA1L1jRTM70-unsplash_spices"
+                        class="d-block w-100 h-100 card-img-top"
+                    />
+                    <div class="card-header display-4">Hygenic Environment</div>
+                    <div class="card-body">
+                        <div class="card-title font-weight-bold">
+                            The food prepared at Ming's Dinner is made in a highly hygenic place.
+                        </div>
+                        <div class="card-text">
+                            Utmost care is taken during the preparation of the food that proper hygine is maintained. 
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        Good food prepared in a hygenic environment keeps evreyone healthy and happy! 
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Footer -->
+        <footer
+            class="card text-light bg-dark mb-0 text-center pl-0 pr-0"
+            style="border-radius: 0px"
+        >
+            <div class="card-header row">
+                <div class="col-2"></div>
+                <div class="col-8 row">
+                    <div class="col-3">
+                        <a
+                            href="http://facebook.com"
+                            class="text-white hoveryellow"
+                            ><i class="bi bi-facebook"></i
+                        ></a>
+                    </div>
+                    <div class="col-3">
+                        <a
+                            href="http://whatsapp.com"
+                            class="text-white hoveryellow"
+                            ><i class="bi bi-whatsapp"></i
+                        ></a>
+                    </div>
+                    <div class="col-3">
+                        <a
+                            href="http://twitter.com"
+                            class="text-white hoveryellow"
+                            ><i class="bi bi-twitter"></i
+                        ></a>
+                    </div>
+                    <div class="col-3">
+                        <a
+                            href="http://youtube.com"
+                            class="text-white hoveryellow"
+                            ><i class="bi bi-youtube"></i
+                        ></a>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <div class="card-body">
+                <div class="card-title">&copy; Copyright - 2022</div>
+                <div class="card-text">All Rights Reseserved</div>
+            </div>
+            <div class="card-footer">
+                <div class="row">
+                    <div class="col-3"></div>
+                    <div class="col-6 row">
+                        <div class="col-6">
+                            <a
+                                href="mailto:haruto.ipsita7@gmail.com"
+                                class="text-white hoveryellow"
+                                ><i class="bi bi-envelope-paper-fill"></i
+                            ></a>
+                        </div>
+                        <div class="col-6">
+                            <a
+                                href="tel:+9090707061"
+                                class="text-white hoveryellow"
+                                ><i class="bi bi-phone-vibrate-fill"></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="col-3"></div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
